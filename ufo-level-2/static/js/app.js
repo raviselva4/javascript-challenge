@@ -86,10 +86,10 @@ filterButton.on("click", function() {
 
     // Get the value property of the input element
     var dateValue = dateElement.property("value");
-    var cityValue = cityElement.property("value");
-    var stateValue = stateElement.property("value");
-    var countryValue = countryElement.property("value");
-    var shapeValue = shapeElement.property("value");
+    var cityValue = cityElement.property("value").toLowerCase();
+    var stateValue = stateElement.property("value").toLowerCase();
+    var countryValue = countryElement.property("value").toLowerCase();
+    var shapeValue = shapeElement.property("value").toLowerCase();
 
     // Build filter array
 
